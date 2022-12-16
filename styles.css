@@ -1,14 +1,14 @@
 body {
     background-color: rgb(16, 17, 14);
     font-family: 'Roboto';
-    zoom: 0.25;
+    zoom: 0.5;
 }
 .tittle {
     font-family: 'Roboto';
     display: flex;
     justify-content: center;
     margin-top: 100px;
-    color: antiquewhite;
+    color: yellow;
     font-size: 150px;
     font-weight: 700;
 }
