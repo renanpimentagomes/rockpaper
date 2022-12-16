@@ -1,6 +1,7 @@
 body {
     background-color: rgb(16, 17, 14);
     font-family: 'Roboto';
+    zoom: 0.5;
 }
 .tittle {
     font-family: 'Roboto';

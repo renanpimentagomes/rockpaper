@@ -10,17 +10,17 @@ function showselection() {
 
     if (firebtn.addEventListener('click',clickhandler)){
         choice = firebtn.value
-        document.getElementById('player-choice-img').src ='images/fire.png';
-        counter++
+        
+        
         
     }else if(waterbtn.addEventListener('click',clickhandler)) {
         choice = waterbtn.value
-        counter++
+        
 
     }
     else if(grassbtn.addEventListener('click',clickhandler)) {
         choice = grassbtn.value
-        counter++
+        
     }
     
 }
@@ -38,18 +38,14 @@ function clickhandler(event) {
     
     
 
-        if (choice == 'fire') {                                  //Results if fire chosen
-            document.getElementById('player-choice-img').src ='images/fire.png';
-            
-            
-            
-
-            
-            
-                } if (computerchoice == 'water') {
+        if (choice == 'fire') {                                  //Results if water chosen
+        document.getElementById('player-choice-img').src ='images/fire.png';
+        
+                 if (computerchoice == 'water') {
                     document.getElementById('computer-choice-img').src ='images/water.png'; //modifiers for lose
-                    document.getElementById('result').innerHTML='You lost this round!'
+                    document.getElementById('result').innerHTML= 'You lost this round!'
                     document.getElementById('result').style.color = 'rgb(175, 20, 20)'
+                    
                 } else if (computerchoice == 'fire') {
                     document.getElementById('computer-choice-img').src ='images/fire.png';//modifiers for draw
                     document.getElementById('result').innerHTML='That is a draw!'
@@ -59,11 +55,11 @@ function clickhandler(event) {
                     document.getElementById('result').innerHTML='You won this round!'
                     document.getElementById('result').style.color = 'rgb(25, 156, 13)'
                 }
-                
+        }        
         if (choice == 'water') {                                  //Results if water chosen
             document.getElementById('player-choice-img').src ='images/water.png';
             
-                } if (computerchoice == 'grass') {
+                 if (computerchoice == 'grass') {
                     document.getElementById('computer-choice-img').src ='images/grass.png'; //modifiers for lose
                     document.getElementById('result').innerHTML='You lost this round!'
                     document.getElementById('result').style.color = 'rgb(175, 20, 20)'
@@ -77,12 +73,13 @@ function clickhandler(event) {
                     document.getElementById('result').innerHTML='You won this round!'
                     document.getElementById('result').style.color = 'rgb(25, 156, 13)'
                 }
+            }
 
 
-        if (choice == 'grass') {                                  //Results if water chosen
+        if (choice == 'grass') {                                  //Results if grass chosen
             document.getElementById('player-choice-img').src ='images/grass.png';
             
-                } if (computerchoice == 'fire') {
+                 if (computerchoice == 'fire') {
                     document.getElementById('computer-choice-img').src ='images/fire.png'; //modifiers for lose
                     document.getElementById('result').innerHTML='You lost this round!'
                     document.getElementById('result').style.color = 'rgb(175, 20, 20)'
@@ -97,10 +94,10 @@ function clickhandler(event) {
                 }        
 
 
-    
+            
    
     }
-
+}
 
         
     
