@@ -1,0 +1,148 @@
+body {
+    background-color: rgb(16, 17, 14);
+    font-family: 'Roboto';
+}
+.tittle {
+    font-family: 'Roboto';
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    color: antiquewhite;
+    font-size: 150px;
+    font-weight: 700;
+}
+.elements-container{
+    display: flex;
+    flex-direction: column;
+    gap: 200px;
+}
+.line-one {
+    display: flex;
+    justify-content: center;
+    margin: 150px;
+}
+
+.line-two {
+    display: flex;
+    gap: 250px;
+    justify-content: center;
+}
+
+.water-button:hover {
+    transform: scale(1.1);
+    transition: transform .2s;
+    
+}
+.fire-button:hover {
+    transform: scale(1.1);
+    transition: transform .2s;
+    
+}
+.grass-button:hover {
+    transform: scale(1.1);
+    transition: transform .2s;
+    
+}
+.score-container{
+    border-radius: 50px;
+    display: flex;
+    margin-top: 150px;
+    margin: 100px;
+    justify-content: center;
+    background-color: rgb(26, 27, 27);
+    
+   
+}
+.player-score{
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    width: 400px;
+    align-items: center;
+    justify-content: center;
+}
+.player-score-box{
+    background-color: rgb(99, 90, 90) ;
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+    text-align: center;
+    color: white;
+    font-size: 220px;
+}
+.player-score-text{
+    color: rgb(25, 156, 13);
+    font-size: 50px;
+}
+.computer-score{
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    width: 400px;
+    align-items: center;
+    justify-content: center;
+}
+.computer-score-box{
+    background-color: rgb(99, 90, 90) ;
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+    text-align: center;
+    color: white;
+    font-size: 220px;
+}
+.computer-score-text{
+    color: rgb(175, 20, 20);
+    font-size: 50px;
+}
+
+.round-counter{
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    width: 400px;
+    align-items: center;
+    justify-content: center;
+}
+.round-counter-box{
+    background-color: rgb(99, 90, 90) ;
+    border-radius: 30px;
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    color: white;
+    font-size: 150px;
+}
+.round-counter-text{
+    color: rgb(48, 20, 175);
+    font-size: 50px;
+}
+.central-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 100px;
+}
+.player-choice-img{
+    height: 600px;
+    width: 600px;
+    border-radius: 50%;
+    background-color: beige;
+}
+.computer-choice-img{
+    height: 600px;
+    width: 600px;
+    border-radius: 50%;
+    background-color: beige;
+}
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.result {
+    color: rgb(7, 202, 50);
+    font-size: 100px;
+    text-align: center;
+}
